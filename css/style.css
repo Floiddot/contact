@@ -23,12 +23,33 @@ a {
     text-decoration: none;
 }
 
-.cntr {
+.container {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    position: absolute;
-    margin: 0;
-    padding:0;
-    top: 50%;
-    left:50%;
-    transform: translateX(-50%) translateY(-50%);
+    height: 89vh;
 }
+
+.contacts {
+    background-color: rgb(27, 27, 27);
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    border: none;
+}
+
+button {
+    border: none;
+    background: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f96e22;
+}
+
+button:active {
+    background-color: #c0541a;
+}
+

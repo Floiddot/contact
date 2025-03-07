@@ -27,7 +27,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 89vh;
+    height: 10vh;
 }
 
 .contacts {
@@ -53,3 +53,8 @@ button:active {
     background-color: #c0541a;
 }
 
+.toptext {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20vh;
+}
